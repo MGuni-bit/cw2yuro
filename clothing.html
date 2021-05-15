@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.1.1/default/snipcart.css" />
+
+<link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
+
+    <link rel="stylesheet" href="CSS\main.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+
+    <title>Shop</title>
+  </head>
+  <body>
+
+
+
+    <div id="mySidebar" class="sidebar">
+
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">❮</a>
+
+      <button class="header-checkout snipcart-checkout">  <img src="Image\bag icon.png" alt="bag"> </button>
+
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="clothing.html">Clothing</a>
+      <a href="contactus.html">Contact Us</a>
+
+      <div class="footer">
+        <p>© Yuro Apparel 2018</p>
+      </div>
+
+    </div>
+
+
+
+    <div class="navbar">
+    <a> <button class="openbtn" onclick="openNav()"> ☰ </button></a>
+    <a href="index.html"> <img src="Image\new logo yuro 2020.svg" alt="Yuro Logo"> </a>
+    <b> <button class="header-checkout snipcart-checkout">  <img src="Image\bag icon.png" alt="bag"> </button></b>
+
+  </div>
+
+  <div class="titletext">
+
+    <h2>SHOP</h2>
+
+  </div>
+
+  <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Filter <img src="Image\filter-filled-tool-symbol.svg" alt="Filter"></button>
+<div id="myDropdown" class="dropdown-content">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+<button class="btn" onclick="filterSelection('hoodies')"> Hoodies</button>
+<button class="btn" onclick="filterSelection('tshirts')"> T-Shirts</button>
+<button class="btn" onclick="filterSelection('bottoms')"> Bottoms</button>
+</div>
+</div>
+
+<div class="mainbody">
+
+<div id="overlay" onclick="off()"> <p>You are subscribed now!</p></div>
+
+
+
+
+
+
+    <!-- Product Grid -->
+    <div class="row">
+      <div class="column hoodies">
+        <div class="content">
+          <img src="Image\Mens-2Black.jpg" alt="Yuro Sidelined Hoodie Black" style="width:100%">
+          <h3>Yuro 夜 Sidelined Hoodie - Blck</h3>
+          <hr>
+          <p>This YURO sidelined Hoodie is part of the new SS21 Collection.
+            This Hoodie can be utilised with YURO Bottoms & YURO T-Shirts to attain a real outfit.
+            Add some style to your wardrobe and be a trendsetter.</p>
+          <button class="snipcart-add-item"
+          data-item-id="black-hoodie"
+          data-item-price="30"
+          data-item-url="clothing.html"
+          data-item-description="The Blck YURO sidelined Hoodies are part of the new SS21 Collection."
+          data-item-image="Image\Mens-2Black.jpg"
+          data-item-name="Yuro 夜 Sidelined Hoodie - Blck"
+          data-item-custom1-name="Size"
+          data-item-custom1-options="XS|S|M|L|XL">
+          Add To Bag
+        </button>
+        </div>
+      </div>
+
+      <div class="column tshirts">
+        <div class="content">
+        <img src="Image\basic-t-shirt-black.jpg" alt="Yuro Sidelined T-shirt Black" style="width:100%">
+        <h3>Yuro 夜 Sidelined T-Shirt - Blck</h3>
+        <hr>
+        <p>This YURO sidelined T-Shirt is part of the new SS21 Collection.
+          This T-Shirt can be utilised with YURO Bottoms & YURO Hoodies to attain a real outfit.
+          Add some style to your wardrobe and be a trendsetter.</p>
+        <button class="snipcart-add-item"
+        data-item-id="black-tshirt"
+        data-item-price="10"
+        data-item-url="/tshirts/black-tshirts"
+        data-item-description="The Blck YURO 夜 sidelined T-Shirts are part of the new SS21 Collection."
+        data-item-image="Image\basic-t-shirt-black.jpg"
+        data-item-name="Yuro 夜 Sidelined T-shirt - Blck"
+        data-item-custom1-name="Size"
+        data-item-custom1-options="XS|S|M|L|XL">
+        Add To Bag
+      </button>
+        </div>
+      </div>
+
+      <div class="column bottoms">
+        <div class="content">
+          <img src="Image\pantsblack.png" alt="Yuro 夜 Sidelined Bottoms Black" style="width:100%">
+          <h3>Yuro 夜 Sidelined Bottoms - Blck</h3>
+          <hr>
+          <p>This YURO sidelined Bottom is part of the new SS21 Collection.
+            This Hoodie can be utilised with YURO Hoodies & YURO T-Shirts to attain a real outfit.
+            Add some style to your wardrobe and be a trendsetter.</p>
+          <button class="snipcart-add-item"
+          data-item-id="black-bottom"
+          data-item-price="20"
+          data-item-url="/bottoms/black-bottom"
+          data-item-description="The Blck YURO 夜 sidelined Bottoms are part of the new SS21 Collection."
+          data-item-image="Image\pantsblack.png"
+          data-item-name="Yuro 夜 Sidelined Bottoms - Black"
+          data-item-custom1-name="Size"
+          data-item-custom1-options="XS|S|M|L|XL">
+          Add To Bag
+        </button>
+        </div>
+      </div>
+
+      <div class="column hoodies">
+        <div class="content">
+        <img src="Image\Sport-Grey.jpg" alt="Yuro Sidelined Hoodie Grey" style="width:100%">
+        <h3>Yuro 夜 Sidelined Hoodie - Gry </h3>
+        <hr>
+        <p>This YURO sidelined Hoodie is part of the new SS21 Collection.
+          This Hoodie can be utilised with YURO Bottoms & YURO T-Shirts to attain a real outfit.
+          Add some style to your wardrobe and be a trendsetter.</p>
+        <button class="snipcart-add-item"
+        data-item-id="grey-hoodie"
+        data-item-price="30"
+        data-item-url="/hoodies/grey-hoodie"
+        data-item-description="The Gry YURO 夜 sidelined Hoodies are part of the new SS21 Collection."
+        data-item-image="Image\Sport-Grey.jpg"
+        data-item-name="Yuro 夜 Sidelined Hoodie - Gry"
+        data-item-custom1-name="Size"
+        data-item-custom1-options="XS|S|M|L|XL">
+        Add To Bag
+      </button>
+        </div>
+      </div>
+
+      <div class="column tshirts">
+        <div class="content">
+          <img src="Image\basic-t-shirt-white.png" alt="Yuro 夜 Sidelined T-shirts white" style="width:100%">
+          <h3>Yuro 夜 Sidelined T-Shirt - Wht</h3>
+          <hr>
+          <p>This YURO sidelined T-shirt is part of the new SS21 Collection.
+            This T-shirts can be utilised with YURO Bottoms & YURO Hoodies to attain a real outfit.
+            Add some style to your wardrobe and be a trendsetter.</p>
+          <button class="snipcart-add-item"
+          data-item-id="white-tshirt"
+          data-item-price="10"
+          data-item-url="/tshirts/white-tshirt"
+          data-item-description="The Wht 夜 YURO sidelined t-shirts are part of the new SS21 Collection."
+          data-item-image="Image\basic-t-shirt-white.png"
+          data-item-name="Yuro 夜 Sidelined T-shirts - Wht"
+          data-item-custom1-name="Size"
+          data-item-custom1-options="XS|S|M|L|XL">
+          Add To Bag
+        </button>
+        </div>
+      </div>
+
+      <div class="column bottoms">
+        <div class="content">
+        <img src="Image\pantsgrey.png" alt="Yuro 夜 Sidelined Bottoms Grey" style="width:100%">
+        <h3>Yuro 夜 Sidelined Bottoms - Gry</h3>
+        <hr>
+        <p>This YURO sidelined Bottom is part of the new SS21 Collection.
+          This Bottom can be utilised with YURO Hoodies & YURO T-Shirts to attain a real outfit.
+          Add some style to your wardrobe and be a trendsetter.</p>
+        <button class="snipcart-add-item"
+        data-item-id="grey-bottom"
+        data-item-price="20"
+        data-item-url="/bottoms/grey-bottom"
+        data-item-description="The Gry YURO sidelined Bottoms are part of the new SS21 Collection."
+        data-item-image="Image\pantsgrey.png"
+        data-item-name="Yuro 夜 Sidelined Bottoms - Gry"
+        data-item-custom1-name="Size"
+        data-item-custom1-options="XS|S|M|L|XL">
+        Add To Bag
+      </button>
+        </div>
+      </div>
+
+    <!-- END GRID -->
+    </div>
+
+
+
+</div>
+
+<form action="">
+  <div class="container">
+    <img src="Image\new logo yuro 2020.svg" alt="Yuro Logo" style="max-width:49px">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Join us to access our private sale plus newest arrivals, exclusive promotions, LAUNCHES, events and more.
+      Please enter your E-mail and Name if you would like to receive marketing content from us.</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <button class="thankyou" onclick="on()">Subscribe</button>
+  </div>
+
+</form>
+
+
+  <script async src="https://cdn.snipcart.com/themes/v3.1.1/default/snipcart.js"></script>
+  <div hidden id="snipcart" data-api-key=OTUzY2RkNzctMWZjNS00ZDJhLTkwZGUtNzliOWM2MGNjMTk3NjM3NDgzOTc5NTQ5MjA5Mzk4></div>
+
+
+  <script src="main.js"></script>
+
+
+
+  </body>
+</html>
