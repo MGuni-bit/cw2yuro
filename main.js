@@ -1,5 +1,7 @@
 /* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*//* Slide menu*/
 
+/* source: https://www.w3schools.com/howto/howto_js_sidenav.asp */
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "100%";
   document.getElementById("main").style.marginLeft = "450px";
@@ -11,6 +13,8 @@ function closeNav() {
 }
 
 /* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*//* Filtter*/
+
+/* source: https://www.w3schools.com/howto/howto_js_portfolio_filter.asp */
 
 filterSelection("all")
 function filterSelection(c) {
@@ -43,6 +47,8 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+/* source: https://www.w3schools.com/howto/howto_js_dropdown.asp */
 
 
 // Add active class to the current button (highlight it)
@@ -78,6 +84,9 @@ window.onclick = function(event) {
 }
 
 /* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay *//* Overlay */
+
+/* Subsription Overlay source: https://www.w3schools.com/howto/howto_css_overlay.asp  */
+
 
 function on() {
   document.getElementById("overlay").style.display = "block";
